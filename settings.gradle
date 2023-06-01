@@ -1,0 +1,5 @@
+rootProject.name = 'spring-boot-microservices'
+
+include 'microservice-spring-boot-starter'
+include 'playground'
+include 'gateway'
