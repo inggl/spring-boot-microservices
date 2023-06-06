@@ -25,6 +25,7 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
     api group: 'org.springdoc', name: 'springdoc-openapi-starter-webflux-ui', version: '2.1.0'
+    api 'de.codecentric:spring-boot-admin-client:3.0.4'
 }
 
 tasks.named('test') {

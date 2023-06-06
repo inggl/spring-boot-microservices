@@ -1,0 +1,13 @@
+spring:
+  config:
+    activate:
+      on-profile: default
+  boot:
+    admin:
+      client:
+        url: http://localhost:8080
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
