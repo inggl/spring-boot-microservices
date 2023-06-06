@@ -1,0 +1,4 @@
+# Gateway
+
+## Routes
+*/playground*

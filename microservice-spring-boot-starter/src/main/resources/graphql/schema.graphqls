@@ -1,0 +1,14 @@
+type Page {
+    page: Int
+    size: Int
+}
+
+input Filter {
+    value: String
+}
+
+type Query {
+    test(filter: Filter!): Page
+}
+
+#type Mutation {}

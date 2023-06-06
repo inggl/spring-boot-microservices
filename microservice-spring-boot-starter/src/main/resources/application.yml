@@ -6,6 +6,10 @@ spring:
     admin:
       client:
         url: http://localhost:8080
+  security:
+    user:
+      name: user
+      password: user
 ---
 spring:
   config:

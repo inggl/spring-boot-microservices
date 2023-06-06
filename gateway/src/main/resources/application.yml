@@ -1,0 +1,17 @@
+spring:
+  config:
+    activate:
+      on-profile: default
+  cloud:
+    gateway:
+      routes:
+        - id: playground
+          uri: http://localhost:8088/playground/
+          predicates:
+            - Path=/playground/**
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
