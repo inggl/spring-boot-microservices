@@ -1,0 +1,6 @@
+query dataDetails($id: ID) {
+    dataById(id: $id) {
+        id,
+        value
+    }
+}

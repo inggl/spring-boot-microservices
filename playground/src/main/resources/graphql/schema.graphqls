@@ -1,0 +1,8 @@
+type Query {
+    dataById(id: ID): Data
+}
+
+type Data {
+    id: ID,
+    value: String
+}
