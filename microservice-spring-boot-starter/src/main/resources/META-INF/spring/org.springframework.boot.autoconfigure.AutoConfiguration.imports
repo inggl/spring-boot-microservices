@@ -1,1 +1,2 @@
 com.github.inggl.springbootmicroservices.microservicespringbootstarter.autoconfigure.SecurityConfig
+com.github.inggl.springbootmicroservices.microservicespringbootstarter.autoconfigure.AuditConfig
